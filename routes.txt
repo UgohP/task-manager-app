@@ -1,0 +1,11 @@
+GET - GETALL / GET A SINGLE
+POST
+PUT
+PATCH
+DELETE
+
+router.get('/api/v1/tasks', function(req, res))
+router.get('/api/v1/tasks/:id', function(req, res))
+router.post('/api/v1/tasks', function(req, res))
+router.patch('/api/v1/tasks/:id', function(req, res))
+router.delete('/api/v1/tasks/:id', function(req, res))
